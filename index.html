@@ -17,39 +17,48 @@
 </head>
 
 <body>
-    <!-- <nav class="shadow nav_shadow">
-        <div class="container mx-auto py-4 flex  justify-between items-center ">
-            <div class="flex items-center">
-                <img class=" mr-4" src="./img/logo.jpg" alt="...">
-                <p class=" text-black text-lg font-lato leading-6">Ministry <br> of Works</p>
+    <nav class="shadow nav_shadow ">
+        <div class="container mx-auto py-4 menu_area ">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center logo_area">
+                    <img class=" mr-4" src="./img/logo.jpg" alt="...">
+                    <p class=" text-black text-lg font-lato leading-6">Ministry <br> of Works</p>
+                </div>
+                <div class="text-5xl text-black menu_icon ">
+                    <iconify-icon icon="heroicons-solid:menu"></iconify-icon>
+                </div>
             </div>
-            <div class="">
-                <ul class="flex items-center">
-                    <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="/index.html">Home</a></li>
-                    <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">About</a></li>
-                    <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Capital Projects</a></li>
-                    <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Press</a></li>
-                    <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Service Forms</a></li>
-                    <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="">
-                <ul class="flex items-center">
-                    <li class="text-lg text-blue font-normal px-5 py-2.5 border border-blue rounded-md mr-2.5"><a
-                            href="#">Sign
-                            In</a>
-                    </li>
-                    <li class="text-lg text-white font-normal px-5 py-2.5 border border-blue bg-blue rounded-md"><a
-                            href="#">Sign
-                            Up</a></li>
-                </ul>
+            <div class="flex items-center total_menu ">
+                <div class="">
+                    <ul class="flex items-center menu_item">
+                        <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="/index.html">Home</a>
+                        </li>
+                        <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">About</a></li>
+                        <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Capital Projects</a>
+                        </li>
+                        <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Press</a></li>
+                        <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Service Forms</a></li>
+                        <li class="mr-10 text-lg font-bold font-lato hover:text-blue"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="flex items-center">
+                        <li class="text-lg text-blue font-normal px-5 py-2.5 border border-blue rounded-md mr-2.5"><a
+                                href="#">Sign
+                                In</a>
+                        </li>
+                        <li class="text-lg text-white font-normal px-5 py-2.5 border border-blue bg-blue rounded-md"><a
+                                href="#">Sign
+                                Up</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </nav> -->
+    </nav>
     <!-- ======================NavBar========================= -->
     <main>
         <section>
-            <div class="bg-hero  sm:h-screen h-52 md:h-52 bg-center bg-cover bg-no-repeat "></div>
+            <div class="bg-hero h-40 lg:h-screen md:h-80  bg-center bg-cover bg-no-repeat "></div>
         </section>
         <!-- ============End-hero======= -->
         <section class=" bg-ash 
@@ -247,7 +256,7 @@
 
             <div class="container mx-auto">
                 <h2 class=" font-bold text-3xl text-center text-black font-lato">Projects</h2>
-                <div class="sm:grid sm:grid-cols-3 sm:gap-5 md:grid-cols-2 mt-14">
+                <div class="sm:grid sm:grid-cols-3 sm:gap-5 md:grid-cols-2 lg:grid-cols-3 mt-14">
                     <div class="mb-6 m-4 lg:m-0">
                         <div class=" bg-cover bg-repeat h-56 bg-center"
                             style="background-image: url('./img/project01.jpg');">
@@ -337,7 +346,7 @@
         <section class="py-16 bg-ash">
             <div class="container mx-auto">
                 <h2 class=" font-bold text-3xl text-center text-black font-lato mb-14">Press Releases</h2>
-                <div class="sm:grid sm:grid-cols-4 sm:gap-5 md:grid-cols-2">
+                <div class="sm:grid sm:grid-cols-4 sm:gap-5 md:grid-cols-2 lg:grid-cols-4">
                     <div class="bg-white mb-6 m-4 lg:m-0">
                         <div class=" bg-cover bg-repeat h-40 bg-center"
                             style="background-image: url('./img/press.jpg');">
@@ -457,7 +466,7 @@
     <footer>
         <div class="py-16 bg-ash">
             <div class="container mx-auto">
-                <div class="sm:grid sm:grid-cols-4 md:grid-cols-2 ">
+                <div class="sm:grid sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 ">
                     <div
                         class="flex justify-center lg:block lg:justify-start md:justify-start md:items-center items-center">
                         <img src="./img/flogo.png" alt="">
@@ -525,7 +534,8 @@
 
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/coustom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/coustom.js"></script>>
 
 </body>
 
